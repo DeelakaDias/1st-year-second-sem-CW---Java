@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2f2701;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java_cw2_2237934.HelloController">
+    <children>
+        <Button layoutX="34.0" layoutY="129.0" mnemonicParsing="false" onAction="#onAddButtonClick" prefHeight="31.0" prefWidth="165.0" style="-fx-background-color: #29db1e;" text="Adding">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="34.0" layoutY="217.0" mnemonicParsing="false" onAction="#onDeleteButtonClick" prefHeight="31.0" prefWidth="165.0" style="-fx-background-color: #29db1e;" text="Deleting" textFill="RED">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="34.0" layoutY="305.0" mnemonicParsing="false" onAction="#onUpdateButtonClick" prefHeight="24.0" prefWidth="165.0" style="-fx-background-color: #29db1e;" text="Updating" textFill="#0e00ff">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="317.0" layoutY="129.0" mnemonicParsing="false" onAction="#onRandomRaceButtonClick" prefHeight="31.0" prefWidth="244.0" style="-fx-background-color: #29db1e;" text="Ranom Race Sorted  Table" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="372.0" layoutY="305.0" mnemonicParsing="false" onAction="#onStandingsButtonClick" prefHeight="31.0" prefWidth="134.0" style="-fx-background-color: #29db1e;" text="Standings Table" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="337.0" layoutY="217.0" mnemonicParsing="false" onAction="#onSrrButtonClick" prefHeight="31.0" prefWidth="204.0" style="-fx-background-color: #29db1e;" text="Random Race Generator" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <Label layoutX="25.0" layoutY="14.0" prefHeight="92.0" prefWidth="450.0" text="World Cross Rally Championship " textFill="#88deef">
+            <font>
+                <Font name="Agency FB Bold" size="40.0" />
+            </font>
+        </Label>
+        <Label layoutX="483.0" layoutY="36.0" prefHeight="56.0" prefWidth="91.0" text="202" textFill="RED">
+            <font>
+                <Font name="System Bold" size="40.0" />
+            </font>
+        </Label>
+        <Label layoutX="549.0" layoutY="27.0" prefHeight="50.0" prefWidth="44.0" text="3" textFill="#88deef">
+            <font>
+                <Font name="System Bold" size="52.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

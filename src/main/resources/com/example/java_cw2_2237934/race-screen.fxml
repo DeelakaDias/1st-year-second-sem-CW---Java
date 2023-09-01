@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2f2701;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java_cw2_2237934.HelloController">
+   <children>
+      <TableView fx:id="raceTable" prefHeight="337.0" prefWidth="600.0" style="-fx-background-color: #2f2701;">
+        <columns>
+          <TableColumn fx:id="LocationColounm" prefWidth="153.0" text="Location" />
+          <TableColumn fx:id="DateColounm" prefWidth="136.0" text="Date" />
+            <TableColumn fx:id="DriverPositionColounm" prefWidth="99.0" text="Driver Position" />
+            <TableColumn fx:id="DriverNumberColounm" prefWidth="106.0" text="Driver Number" />
+            <TableColumn fx:id="PointsColounm" prefWidth="105.0" text="Updated Points" />
+        </columns>
+      </TableView>
+      <Button layoutX="472.0" layoutY="353.0" mnemonicParsing="false" onAction="#onRacesLoadButtonClick" prefHeight="31.0" prefWidth="101.0" style="-fx-background-color: #29db1e;" text="Load Races" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

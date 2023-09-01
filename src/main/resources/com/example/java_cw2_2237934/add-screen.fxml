@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2f2701;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java_cw2_2237934.HelloController">
+    <children>
+        <TextField fx:id="DriverNameField" layoutX="212.0" layoutY="103.0" />
+        <TextField fx:id="DriverAgeField" layoutX="212.0" layoutY="161.0" />
+        <TextField fx:id="DriverTeamField" layoutX="212.0" layoutY="217.0" />
+        <TextField fx:id="CarModelField" layoutX="212.0" layoutY="278.0" />
+        <TextField fx:id="DriverCurrentPoints" layoutX="212.0" layoutY="334.0" />
+        <Label layoutX="66.0" layoutY="50.0" text="Driver number" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="66.0" layoutY="107.0" text="Name" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="66.0" layoutY="165.0" text="Age" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="66.0" layoutY="221.0" text="Team" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="66.0" layoutY="282.0" text="Model" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="66.0" layoutY="338.0" text="Current points" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Button layoutX="467.0" layoutY="353.0" mnemonicParsing="false" onAction="#onConfirmButtonClick" prefHeight="31.0" prefWidth="106.0" style="-fx-background-color: #29db1e;" text="Confirm" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font></Button>
+        <Label layoutX="220.0" layoutY="2.0" prefHeight="25.0" prefWidth="134.0" text="Adding Drivers" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="numberTextField" layoutX="212.0" layoutY="46.0" />
+        <Label fx:id="driverNumberError" layoutX="212.0" layoutY="71.0" prefHeight="17.0" prefWidth="291.0" textFill="WHITE" />
+        <Label fx:id="driverNameError" layoutX="212.0" layoutY="132.0" prefHeight="17.0" prefWidth="317.0" textFill="WHITE" />
+        <Label fx:id="driverAgeerror" layoutX="213.0" layoutY="189.0" prefHeight="17.0" prefWidth="334.0" textFill="WHITE" />
+        <Label fx:id="driverTeamError" layoutX="214.0" layoutY="246.0" prefHeight="17.0" prefWidth="297.0" textFill="WHITE" />
+        <Label fx:id="carModelError" layoutX="214.0" layoutY="309.0" prefHeight="17.0" prefWidth="297.0" textFill="WHITE" />
+        <Label fx:id="driverCurrentPointsError" layoutX="214.0" layoutY="366.0" prefHeight="17.0" prefWidth="258.0" textFill="WHITE" />
+        <Label fx:id="detailsSaved" layoutX="383.0" layoutY="71.0" prefHeight="17.0" prefWidth="194.0" textFill="WHITE" />
+    </children>
+</AnchorPane>
