@@ -16,6 +16,7 @@ public class HelloApplication extends Application {
         stage.setTitle("WRC 2023");
         stage.setScene(scene);
         stage.show();
+        System.out.println("hello World");
     }
 
     public static void main(String[] args) {
